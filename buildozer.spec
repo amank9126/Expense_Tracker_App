@@ -68,6 +68,12 @@ android.accept_sdk_license = True
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
 android.archs = arm64-v8a, armeabi-v7a
 
+# (bool) enables Android auto backup feature (Android API >=23)
+android.allow_backup = True
+
+# (str) The format used to package the app for release mode (aab or apk).
+android.release_artifact = apk
+
 [buildozer]
 
 # (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
